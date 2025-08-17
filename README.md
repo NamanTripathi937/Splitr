@@ -1,21 +1,35 @@
-Splitr - The smartest way to split expenses with the power of AI 🔥🔥
-🧠 Tired of the mental math and awkward conversations?
-Splitr is not just another expense-splitting app. It’s your intelligent financial assistant, powered by cutting-edge AI, designed to make managing group expenses effortless, fair, and transparent. Say goodbye to the confusion of who owes what and hello to clarity, powered by Gemini AI.
+# Splitter - Full Stack Expense Splitting App  
 
-✨ Key Features
-Intelligent Expense Parsing: Simply upload a picture of a receipt, and our Gemini-powered AI will instantly parse it, identifying items, prices, and total amounts. No more manual entry!
+**Splitter** is a full-stack expense splitting application that allows users to track and manage shared expenses with friends and groups. Built with Next.js, Convex (real-time database), Clerk (authentication), and Shadcn UI, this app simplifies splitting bills, settling debts, and tracking payments efficiently.  
 
-Smart Split Suggestions: The AI goes beyond simple splits. It intelligently suggests how to divide the bill based on what each person consumed, making complex group dinners or grocery trips a breeze.
+## Key Features  
 
-Intuitive Debt Settlement: Splitr calculates the most efficient way to settle debts among a group, minimizing the number of transactions required. Our "Settle Up" feature shows you who to pay and how much, bringing "Karma" to your shared finances.
+- **Expense Management**:  
+  - Add individual or group expenses with multiple split options (equal, percentage, or exact amounts).  
+  - Categorize expenses (e.g., transportation, food) for better tracking.  
 
-Real-time Group Insights: Get instant, AI-driven insights into your group's spending habits. Our dashboard provides a clear vision (Drishti) of where the money is going.
+- **Smart Debt Simplification**:  
+  - Automatically calculates the most efficient way to settle debts, reducing unnecessary transactions.  
 
-Seamless Notifications: With real-time notifications, everyone stays updated on their share of the bill, making sure no one is ever left in the dark.
+- **Group & Contact Management**:  
+  - Create and manage groups with multiple members.  
+  - Track settlement history and record payments between users.  
 
-Secure & Fast Payments: Integrated with secure payment gateways to ensure smooth and instant transactions.
+- **Real-Time Updates**:  
+  - Powered by Convex for instant synchronization across all users.  
 
-🛠️ Tech Stack
+- **Interactive Dashboard**:  
+  - Visualize monthly spending patterns with charts.  
+  - AI-powered insights for personalized spending analysis.  
+
+- **Payment Reminders**:  
+  - Automated email reminders for pending payments.  
+
+- **Modern UI**:  
+  - Responsive and sleek design built with Next.js and Shadcn UI.  
+
+## Tech Stack  
+
 Frontend: Next.js
 
 Backend: Convex (Real-time database and serverless functions)
@@ -80,10 +94,5 @@ Push to the Branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
 
-License
-Distributed under the MIT License. See LICENSE for more information.
-
 Contact
 Naman Tripathi - namantripathi937@gmail.com
-
-Project Link: https://github.com/namantripathi937/splitr
